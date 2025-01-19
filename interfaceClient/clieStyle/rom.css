@@ -1,0 +1,214 @@
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../../image/1.jpg);
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .titlex{
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffc403;
+    margin-top: 20px;
+  }
+  @media (max-width: 768px) {
+    .titlex{
+      font-size: 30px;
+    }
+  }
+  
+  .rooms .container .rowe{
+    display: flex;
+    padding: 10px 40px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s ease-in-out;
+    background-color:rgba(255, 255, 255, 0.021);
+  }
+  .rooms .container .row:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    transform: translateY(-5px);
+  }
+  
+  .rooms .container .rowe .col1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+  
+  }
+  .rooms .container .rowe .col1 .image{
+      width: 270px;
+      height: 270px;
+      border-radius: 10px;
+      
+      /* background-color: red; */
+  }
+  .rooms .container .rowe .col1 .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .btn2{
+    font-weight: 900;
+    /* background: rgba(255, 255, 255, 0.4); */
+    background: transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s ease;
+    position: relative;
+    color: #ffffff;
+    border: 1px solid  #ffffff;
+    overflow: hidden;
+    padding: 5px 20px;
+    width: calc(40%);
+    height: 35px;
+    font-size: 16px;
+    font-family: serif;
+    text-align: center;
+  }
+  
+  .btn2:hover{
+    /* background: rgba(255, 255, 255, 0.3); */
+    border: none;
+  
+  }
+  
+  .btn2 span{
+    background:#ffc403;
+    width: 0%;
+    height: 100%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s ease-in-out;
+  }
+  .btn2:hover span{
+    width: 100%;
+  }
+  .btn2:hover{
+    background-color: #ffc403;
+    color: #222222;
+  }
+ 
+  .btn2 a{
+    color: #fff;
+    text-decoration: none;
+  }
+  a{
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .rooms .container .rowe .col2{
+    /* background-color: rgb(162, 255, 0);/ */
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0 20px 0 30px;
+    height: 100%;
+    align-content: space-around;
+  }
+  .rooms .container .rowe .col2 > p{
+    padding: 10px;
+    margin: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffc403;
+    box-shadow: 0 0 1px #ffc403;
+    text-shadow: 0 0 1px #ffc403;
+    border-radius: 10px;
+  }
+  .las{
+    padding: 10px;
+    margin: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .las p{
+    font-size: 18px;
+    color: red;
+    font-weight: 900;
+  
+  }
+
+  
+.btn{
+    width: 130px;
+    height: 40px;
+    font-weight: 500;
+    /* background: rgba(255, 255, 255, 0.4); */
+    background: transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s ease;
+    position: relative;
+    color: #fff;
+    border: 1px solid  #fff;
+    overflow: hidden;
+    margin: 30px 0 0 20px;
+  }
+  .btn:hover{
+    /* background: rgba(255, 255, 255, 0.3); */
+    border: none;
+  
+  }
+  
+  
+  .btn span{
+    background:#ffc403;
+    width: 0%;
+    height: 100%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s ease-in-out;
+  }
+  .btn:hover span{
+    width: 100%;
+  }
+  .btn:hover{
+    background-color: #ffc403;
+    color: #222222;
+  }
+  .btn a{
+    color: #fff;
+    text-decoration: none;
+  }
+  a{
+    color: #fff;
+  }
+  
+
+.sd{
+    color: white;
+    text-align: center;
+    margin: 0 20px;
+    padding:0 5px;
+}
+
+.tabel-content tr td{
+    color: #fff;
+}
+.tabel-content tr:hover td{
+    color: #ffc403;
+}
+
+.tabelx{
+  background-color: rgba(0, 0, 0, 0.479);
+}
+@media(max-width:768px){
+  .tabelx,.tabelx tr ,.tabelx td{
+      font-size: 30px;   
+  }
+}
